@@ -1,17 +1,35 @@
-# React + Vite
+# Tarzla – Multi-Brand Fashion Aggregator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+tarzla is a modern fashion product aggregation platform built with React and Tailwind CSS. The goal of the project is to bring clothing products from multiple brands together in a single interface and generate revenue through affiliate programs.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
 
-## React Compiler
+This project serves as a unified fashion discovery experience. Instead of browsing multiple online stores separately, users can explore curated fashion items from various brands in one place. When users click a product, they are redirected through an affiliate link, enabling commission-based monetization.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## Features
 
-## Expanding the ESLint configuration
+	•	Multi-Brand Product Aggregation: Pulls clothing products from different e-commerce platforms.
+	•	Affiliate Monetization: Each product click redirects users via affiliate links.
+	•	Clean & Modern UI: Built using Tailwind for a responsive and lightweight design.
+	•	Fast Frontend Architecture: Powered by React and Vite.
+	•	Category-Based Browsing: Users can filter and browse items by type, brand, or style.
+	•	Scalable Structure: Easily extendable for new brands, APIs, and product data sources.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# tarzla
+## How It Works
+
+	1.	The system fetches product data from brand APIs or scraping services.
+	2.	Products are displayed in a consistent card-based layout.
+	3.	Users click a product to visit the seller’s website via an affiliate link.
+	4.	The platform earns commission through these outbound clicks.
+
+## This project aims to answer:
+
+	•	Can a unified interface increase user engagement when browsing fashion items?
+	•	Does simplifying product discovery improve conversion rates for affiliate programs?
+	•	How effective is a multi-brand aggregator model in driving affiliate revenue?
+
+## License
+
+This project is private. For licensing or usage inquiries, please contact the repository owner.
