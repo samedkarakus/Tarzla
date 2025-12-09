@@ -1,6 +1,6 @@
 # Tarzla – Multi-Brand Fashion Aggregator
 
-tarzla is a modern fashion product aggregation platform built with React and Tailwind CSS. The goal of the project is to bring clothing products from multiple brands together in a single interface and generate revenue through affiliate programs.
+Tarzla is a modern fashion product aggregation platform built with React and Tailwind CSS. The goal of the project is to bring clothing products from multiple brands together in a single interface and generate revenue through affiliate programs.
 
 ---
 
