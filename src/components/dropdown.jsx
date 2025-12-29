@@ -19,7 +19,7 @@ const Dropdown = ({ label, options, selected, onSelect }) => {
     <div ref={ref} className="relative flex-shrink-0">
       <button
         onClick={() => setOpen(!open)}
-        className="flex justify-between items-center px-3 py-2 bg-transparent text-gray-700 text-sm"
+        className="flex rounded-none justify-between items-center px-3 py-2 bg-transparent text-gray-700 text-sm border-b border-transparent hover:border-white"
       >
         {selected || label}
         <ChevronDownIcon className="w-4 h-4 ml-2 opacity-60" />
@@ -34,7 +34,7 @@ const Dropdown = ({ label, options, selected, onSelect }) => {
                 onSelect(opt.value);
                 setOpen(false);
               }}
-              className="w-full text-left px-3 py-2 text-sm hover:bg-gray-100"
+              className="bg-white text-brand rounded-none w-full text-left px-3 py-2 text-sm hover:bg-gray-100 hover:border-white"
             >
               {opt.label}
             </button>

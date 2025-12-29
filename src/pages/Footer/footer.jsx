@@ -31,7 +31,7 @@ const Footer = () => {
     return (
         <div>
             <footer class="bg-white">
-                <div class="mx-auto max-w-8xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-7 lg:px-8">
+                <div class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:space-y-7 lg:px-8">
                     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div className='space-y-4'>
                         <p class="text-brand text-xl">
